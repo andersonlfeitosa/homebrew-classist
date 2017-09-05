@@ -3,7 +3,7 @@ require "formula"
 class Classist < Formula
   homepage "https://github.com/andersonlfeitosa/classist"
   url "https://raw.githubusercontent.com/andersonlfeitosa/homebrew-classist/master/classist-dist.zip"
-  sha256 "00f4c849842829b087eb0363c5fae141693e34f9b69c557cf513f353cfdeae44"
+  sha256 "20b34f02a2f5dfa5a3984bdf3ea2cef2b1771b2a0ebcdf414241bac205473357"
 
   def install
     inreplace "brew/classist", "##PREFIX##", "#{prefix}"
